@@ -28,9 +28,5 @@ test('Add products from multiple brands and verify cart', async ({ page }) => {
   // Step 5: Go to Cart
   await product.addToCart();
 
-  // Step 6: Validate cart
- /* await cartPage.verifyNumberOfProducts(3);
-  await cartPage.verifyProductQuantity('3', 6);
-  await cartPage.verifyProductQuantity('2', 4);
-  await cartPage.verifyProductQuantity('1', 1);*/
+
   });

@@ -17,10 +17,6 @@ export class BrandPage {
     await addButton.waitFor({ state: 'visible' });
     await addButton.click();
 
-    // Close modal if it appears
-    /*const modalClose = this.page.locator('.btn-success.close-modal');
-    if (await modalClose.isVisible()) {
-      await modalClose.click();
-    }*/
+   
   }
 }

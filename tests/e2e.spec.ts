@@ -4,11 +4,6 @@ import { ProductPage } from './Pages/ProductPage';
 import { CartPage } from './Pages/CartPage';
 import { LoginPage } from './Pages/LoginPage';
 
-/*test.beforeEach(async ({ page }) => {
-  const loginPage = new LoginPage(page);
-  await page.goto(process.env.BASE_URL || 'https://automationexercise.com');
-  await loginPage.login(process.env.USER_EMAIL!, process.env.USER_PASSWORD!);
-});*/
 
 test('E2E: Browse, add to cart & checkout flow', async ({ page }) => {
     await page.goto(process.env.BASE_URL || 'https://automationexercise.com');
