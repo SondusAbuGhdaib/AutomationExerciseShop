@@ -1,0 +1,10 @@
+node_modules/
+storageState.json
+.env
+playwright-report/
+
+# Playwright
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
